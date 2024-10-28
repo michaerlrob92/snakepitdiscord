@@ -32,6 +32,7 @@ var services = new ServiceCollection()
     .AddSingleton<DiscordSocketClient>()
     // Adds a singleton service for DiscordEventListener.
     .AddSingleton<DiscordEventListener>()
+    .AddSingleton<IConfiguration>(configuration)
     // Builds the service provider.
     .BuildServiceProvider();
 

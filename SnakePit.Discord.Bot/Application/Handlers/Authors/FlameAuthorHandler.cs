@@ -73,7 +73,7 @@ public class FlameAuthorHandler : INotificationHandler<MessageAuthorNotification
 
         // Send the response along with an image
         await message.Channel.SendFileAsync(
-            filePath: @"C:\Work\Apps\SnakePit\SnakePit.Discord\SnakePit.Discord.Bot\assets\flame.png",
+            filePath: @"C:\Users\mikew\RiderProjects\snakepitdiscord\SnakePit.Discord.Bot\assets\flame.png",
             text: response,
             messageReference: new MessageReference(message.Id)
         );

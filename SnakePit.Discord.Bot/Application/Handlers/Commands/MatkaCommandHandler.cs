@@ -28,7 +28,7 @@ public class MatkaCommandHandler : INotificationHandler<CommandReceivedNotificat
 
         // Send a response message with an image
         await message.Channel.SendFileAsync(
-            filePath: @"C:\Work\Apps\SnakePit\SnakePit.Discord\SnakePit.Discord.Bot\assets\matka.png",
+            filePath: @"C:\Users\mikew\RiderProjects\snakepitdiscord\SnakePit.Discord.Bot\assets\matka.png",
             text: $"Looking good <@{Constants.MatkaUserId}>.",
             messageReference: new MessageReference(message.Id)
         );
